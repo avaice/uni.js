@@ -3,7 +3,7 @@ window.onload = function(){
     for(let j = 0; j < dom.length; j++){
         
         const element = dom[j];
-        console.log(element.innerHTML.length)
+        //console.log(element.innerHTML.length)
         const n = Math.floor(element.innerHTML.length / 2);
         const mark = (element.innerHTML.length % 2 == 1 ? "✹" : "") ;
         element.innerHTML = "";
